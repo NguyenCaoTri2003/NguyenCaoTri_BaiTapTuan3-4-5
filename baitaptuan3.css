@@ -35,13 +35,32 @@
     font-weight: lighter; 
     color: #009900
 }
-.bai3_table table {
+.bai3_table1 table, .bai3_table2 table {
     border: 1px solid black;
     border-collapse: unset;
 
 }
-.bai3_table td, th{
+.bai3_table1 td, .bai3_table1 th, .bai3_table2 td, .bai3_table1 th{
     border: 1px solid black;
     border-collapse: collapse;
     color: black;
+}
+.bai4_table {
+    border: 1px solid #b24546;
+    border-collapse: collapse;
+}
+.bai4_table td, .bai4_table th{
+    border: 1px solid #b24546;
+    border-collapse: collapse;
+    color: black;
+}
+
+.bai4_table th{
+    color: white;
+}
+.bai4_table tr:nth-child(even){
+    background-color: rgb(201, 201, 201);
+}
+.bai4_table tr:nth-child(1){
+    background-color:#993738;
 }
