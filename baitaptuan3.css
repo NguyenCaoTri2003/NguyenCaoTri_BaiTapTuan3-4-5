@@ -35,13 +35,115 @@
     font-weight: lighter; 
     color: #009900
 }
-.bai3_table table {
+.bai3_table1 table, .bai3_table2 table {
     border: 1px solid black;
     border-collapse: unset;
 
 }
-.bai3_table td, th{
+.bai3_table1 td, .bai3_table1 th, .bai3_table2 td, .bai3_table1 th{
     border: 1px solid black;
     border-collapse: collapse;
     color: black;
+}
+.bai4_table {
+    border: 1px solid #b24546;
+    border-collapse: collapse;
+}
+.bai4_table td, .bai4_table th{
+    border: 1px solid #b24546;
+    border-collapse: collapse;
+    color: black;
+}
+
+.bai4_table th{
+    color: white;
+}
+.bai4_table tr:nth-child(even){
+    background-color: rgb(201, 201, 201);
+}
+.bai4_table tr:nth-child(1){
+    background-color:#993738;
+}
+
+.container, .row{
+    width: 100%;
+}
+.row::before, .row::after{
+    display: table;
+    content: "";
+}
+.row::after{
+    clear: both;
+}
+.col1, .col2, .col3{
+    float: left;
+    width: 25.333333333%;
+    margin: 1%;
+    padding: 1%;
+}
+.newspaper {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: lightblue;
+  }
+.boderall{
+    width: 250px;
+    height: 100px;
+    margin: 50px;
+}
+.boder1, .boder2, .boder3, .boder4{
+    border: 10px solid;
+    border-top-color: #85C226;
+    border-right-color: #F7C200;
+    border-bottom-color: #4493AD;
+    border-left-color: #DF127B;
+}
+.boder2{
+    border-top-style: solid;
+    border-right-style: dashed;
+    border-bottom-style: groove;
+    border-left-style: double;
+}
+.boder3{
+    border-top-width: 5px;
+    border-right-width: 10px;
+    border-bottom-width: 15px;
+    border-left-width: 20px;
+
+}
+.boder4{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0px 30px 70px 20px;
+}
+.boder5{
+    border-width: 4px 30px 4px 30px;
+    border-style: groove ridge dashed groove;
+    border-color: #7bc73c;
+    border-radius: 100px 100px 0 0;
+}
+.boder6{
+    border-radius: 20px;
+    border: 5px solid #F7C200;
+}
+.boder7{
+    border-width: 0px 12px 0px 12px;
+    border-style: double;
+    border-color: violet;
+    border-radius: 40px 40px 60px 60px;
+}
+.boder8{
+    border-radius: 20px 100px 100px 20px;
+    border: 5px solid #009999;
+}
+.boder8{
+    background: orange;
+    border-width: 4px 30px 4px 30px;
+    border-style: solid;
+    border-color: #56c6d9 #56c6d9 #fe2192 #fe2192;
+    border-radius: 0 120px 0 120px;
 }
