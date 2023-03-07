@@ -147,3 +147,42 @@
     border-color: #56c6d9 #56c6d9 #fe2192 #fe2192;
     border-radius: 0 120px 0 120px;
 }
+.button{
+    width: 200px;
+    padding: 8px;
+    background-color: #428bca;
+    border-color: #357ebd;
+    color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    font-weight: 900;
+    font-size: 125%;
+}
+#animated{
+  
+    width: 100px;
+    height: 100px;
+    left: 0px;
+    top: 100px;
+    background: #ffcc00;
+    animation-name: scroll;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes scroll{
+    to{
+        left: 100%;
+        transform: rotate(180deg);
+    }
+}
+.footer{
+    position: fixed;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+    background-color: green;
+    color: #fff;
+}
