@@ -147,3 +147,106 @@
     border-color: #56c6d9 #56c6d9 #fe2192 #fe2192;
     border-radius: 0 120px 0 120px;
 }
+.button{
+    width: 200px;
+    padding: 8px;
+    background-color: #428bca;
+    border-color: #357ebd;
+    color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    font-weight: 900;
+    font-size: 125%;
+}
+#animated{
+  
+    width: 100px;
+    height: 100px;
+    left: 0px;
+    top: 100px;
+    background: #ffcc00;
+    animation-name: scroll;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes scroll{
+    to{
+        left: 100%;
+        transform: rotate(180deg);
+    }
+}
+.footer{
+    position: fixed;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+    background-color: green;
+    color: #fff;
+}
+.container_bai9{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 436px;
+    height: 179px;
+}
+.header_bai9{
+    color: #8a1315;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.paner{
+    border: 1px solid #8a1315;
+    width: 100px;
+    height: 50px;
+}
+.paner_bai9{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.fb, .ms, .nj, .oo, .pa, .quo, .trip{
+    margin-right: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.fb, .pa{
+    margin-left: 5px;
+}
+.fb:hover, .ms:hover, .nj:hover, .oo:hover, .pa:hover, .quo:hover, .trip:hover{
+ 
+    border: 2.5px double #8a1315;
+}
+.transition_bai14{
+    width: 300px;
+    height: 170px;
+    background: #6FAC21;
+    opacity: 0.8;
+    border-radius: 10px;
+    transition: all 2s linear;
+    margin: 50px 50px;
+    text-align: justify;
+    border-bottom: dashed;
+    border-left: double;
+    border-right: dashed;
+    border-top: double;
+    border-color: red;
+}
+
+.tratransition_bai14{
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 16px;
+    transition: all 2s;
+}
+.transition_bai14:hover{
+    transform: scale(2) rotate(360deg);
+    background: #1EC7E6;
+    opacity: 0.8;
+}
